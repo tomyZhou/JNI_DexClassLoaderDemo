@@ -1,0 +1,2 @@
+# JNI_DexClassLoaderDemo
+JNI方式调用DexclassLoader，加载外部dex，执行其方法。AF打点包含在外部dex
