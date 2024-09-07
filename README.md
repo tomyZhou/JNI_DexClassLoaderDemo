@@ -1,2 +1,8 @@
 # JNI_DexClassLoaderDemo
 JNI方式调用DexclassLoader，加载外部dex，apk,执行其方法。添加webview等。AF打点包含在外部dex
+
+method1:dexclassloader加载dex，跳到宿主包的Activity。
+
+method2:dexclassloader加载dex，往宿主Activity添加Webveiw
+
+method3: 解密so到私有目录，加载so，然后用dexclassloader加载apk，往宿主Activity添加Webview
